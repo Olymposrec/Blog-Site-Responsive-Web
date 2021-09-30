@@ -1,0 +1,219 @@
+
+
+/* GENERAL CSS START*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 135%;
+  background: #f1f1f1;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.p-20 {
+  padding: 20px;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.header {
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+li {
+  list-style-type: none;
+}
+/* GENERAL CSS END*/
+
+
+
+/* NAVBAR START*/
+.navbar-menu {
+  overflow: hidden;
+  background: #dd4453;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);;
+  position: fixed;
+  z-index: 500;
+}
+.navbar-menu ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+.navbar-menu li {
+  float: left;
+}
+.navbar-menu li a {
+  display: inline-block;
+  padding: 12px 16px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  transition: background-color 0.5s linear ;
+}
+.navbar-menu li a:hover {
+  background-color: #111;
+}
+/* NAVBAR END*/
+
+
+
+/* CONTAINER DIV START*/
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding-top: 20px;
+}
+/* CONTAINER DIV END*/
+
+
+
+/* BLOG CONTAINER START*/
+.blog-post-container {
+  width: 75%;
+  background: #f1f1f1;
+  float: left;
+}
+/* BLOG CONTAINER END*/
+
+
+/*BLOG POST START*/
+.blog-post {
+  position: relative;
+}
+.blog-text {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: rgb(66, 65, 65);
+  line-height: 22px;
+  text-align: justify;
+}
+.blog-post img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: opacity 0.3s linear;
+}
+.blog-post img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.blog-title {
+  font-weight: 700;
+}
+.blog-title a {
+  color: #444;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.blog-title a:hover {
+  color: #da4453;
+}
+/*BLOG POST END*/
+
+
+
+/*BLOG DATE START*/
+.date {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #aaa;
+  font-size: 12px;
+}
+/*BLOG DATE END*/
+
+
+
+/*BLOG BOX START*/
+.box {
+  background: white;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0 6px 12px 8px rgba(20, 23, 28, 0.15);
+}
+/*BLOG BOX END*/
+
+
+/* TAGS BTN START*/
+.tag {
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 2px;
+}
+.tags ul {
+  list-style-type: none;
+}
+.tags li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 5px;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+}
+.tags ul li {
+  margin-bottom: 10px;
+}
+.tags li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+.btn {
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #dd4453;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.3s linear;
+}
+.btn:hover {
+  background-color: #363636;
+  border-color: #363636;
+}
+/* TAGS BTN END*/
+
+
+/* OTHER POSTS START*/
+#other-posts {
+  text-align: center;
+  width: 25%;
+  float: left;
+  padding-left: 20px;
+}
+#inner-other-posts {
+  position: fixed;
+  top: 20px;
+}
+/* OTHER POSTS END*/
+
+/* SHARE ASIDE*/
+#share a {
+  color: gray;
+  opacity: 0.6;
+}
+#share a:hover {
+  color: #dd4453;
+  opacity: 1;
+}
+/* SHARE END */
