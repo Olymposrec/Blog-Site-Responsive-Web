@@ -32,8 +32,12 @@
         <div id="logo-box">
           <a href="/" class="logo text-uppercase"> Start Bootstrap</a>
         </div>
-        <div id="nav-links">
+        <div id="nav-links" class="responsive">
           <ul>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-uppercase nav-icon"> 
+                <i class="fas fa-bars"></i> </a>
+            </li>
             <li class="nav-item">
               <a href="#" class="nav-link text-uppercase"> Portfolio </a>
             </li>
@@ -253,5 +257,14 @@
             Copyright Your Website 2018
         </small>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $('.nav-icon').click(function(){
+          $('#nav-links').toggleClass("responsive");
+          return false;
+        });
+
+    </script>
   </body>
 </html>
