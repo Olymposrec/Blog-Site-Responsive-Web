@@ -1,5 +1,5 @@
 # Blog-Site-Responsive-Web
- Html, CSS and responsive design without bootstrap
+ HTML, CSS, BOOTSTRAP AND JS
 
 for preview:
 Blog Site 1:
