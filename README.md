@@ -10,3 +10,9 @@ https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsiv
 
 Blog Site 3:
 https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/BlogSite3/GodsBlogApp/index.html
+
+Blog Site 4:
+https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/BlogSite4/BootstrapBlog/index.html
+
+To Do App:
+https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/ToDoAppSiteJS/ToDoAppJS/index.html
