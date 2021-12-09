@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My To Do List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<link rel="stylesheet" href="style.css">
+    <!-- FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  </head>
+  <body id="BodyToDoApp">
+    <div class="container p-3">	
+		<h1 class="app-title" id="header">To Do App</h1>	
+		<div class="card task-card">
+			<div class="card-header cardTitles">
+				New Task
+			</div>
+			<div class="card-body">
+				<form id="addTaskForm">
+				
+					<div class="input-group mb-3">
+						<input id="txtTaskName" name="taskName" type="text" class="form-control" placeholder="Type a new task" aria-describedby="btnAddNewTask">
+						<div class="input-group-append">
+							<button class="btn btn-color" type="submit" id="btnAddNewTask">
+								<i class="fas fa-plus" style="color: black;"></i>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="card mt-3">
+			<div class="card-header" id="cardHeaderTask">
+				
+					Task List 
+				
+				    <a id="btnDeleteAll" href="#" class="btn  btn-sm delete-all float-right">	
+						DELETE ALL
+					</a>
+			</div>
+			<ul id="task-list" class="list-group">
+				<!-- <li class="list-group-item added-list-group-item liFont" >To do item
+					<a href="#" class="delete-item float-right">
+						<i class="fas fa-times icon-color" id="cross"></i>
+					</a>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+
+
+    <script src="javaScript.js" type="text/Javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="javascript.js"></script>
+  </body>
+</html>

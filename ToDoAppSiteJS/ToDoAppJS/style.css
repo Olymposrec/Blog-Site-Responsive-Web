@@ -1,0 +1,112 @@
+html{
+    font-size: 10px;
+}
+#BodyToDoApp{
+    background-color: #3b3f46;
+    font-size: 1.6rem;
+}
+#header{
+    color: #f5a302;
+    font-size: 3.2rem;
+    padding: 3rem;
+}
+#btnDeleteAll{
+    color:#1E2328;
+    outline: 0.5rem;
+    font-weight: bold;
+    border-color: #1E2328;
+    outline-color: #1E2328;
+    background-color: #f5a302;   
+}
+#btnDeleteAll:hover{
+    color:#f5a302;
+    outline-color: #1E2328;
+    background-color: #1E2328;   
+}
+#task-list{
+    background-color: #1E2328;
+    border-radius: 1rem;
+}
+
+.card-body{
+    background-color: #1E2328;
+    border-bottom-right-radius: 0.5rem;
+}
+.btn-color{
+    background-color: #f5a302;
+}
+
+.app-title{
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+}
+.liFont{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Gemunu Libre", sans-serif;
+}
+
+.card-header{
+    background-color: #f5a302;
+    font-size: 1.6rem;
+    font-family: "Gemunu Libre", sans-serif;
+    color: #1E2328;
+    font-weight: 600;
+}
+
+.card{
+    background-color: #1E2328;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.4sn;
+    -webkit-transition: box-shadow 0.4sn;
+    -moz-transition: box-shadow 0.4sn;
+}
+
+
+.added-list-group-item{
+    background-color: #f5a302 ;
+    padding: 0.8rem;
+    margin: 0.4rem;
+    border-radius: 1rem;
+    transition: box-shadow 0.4sn;
+    -webkit-transition: box-shadow 0.4sn;
+    -moz-transition: box-shadow 0.4sn;
+}
+.list-group-item:first-child{
+    border-radius: 1rem !important;
+}
+.list-group-item:last-child{ 
+    border-radius: 1rem !important;
+}
+.added-list-group-item:hover{
+    box-shadow: 0 0.2px 2px 0 rgb(190, 127, 0);
+}
+
+ul{
+    align-items:stretch;
+    padding: 1.2rem;
+}
+
+.icon-color{
+    color: #1E2328;
+}
+.icon-color:hover{
+    color: red;
+}
+#txtTaskName{
+    color: white;
+    background-color: #3b3f46;
+}
+
+#txtTaskName:focus{
+    border-style: none;
+    outline-color: #f5a302;
+}
+.form-control{
+    border-color: #f5a302;
+    color: white;
+}
+#txtTaskName::placeholder{
+    color: white;
+}
