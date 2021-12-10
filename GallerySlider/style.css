@@ -1,0 +1,24 @@
+body{
+    align-items: center;
+}
+#GallerySliderAppColor{
+    background-color: #3b3f46;
+}
+.fas{
+    cursor: pointer;
+}
+.card{
+    text-align: center;
+}
+.card-body{
+    background-color: black;
+}
+.card-footer{
+    background-color: black;
+}
+html, body {
+    height: 100%;
+  }
+.full-height {
+    height: 100%;
+  }
