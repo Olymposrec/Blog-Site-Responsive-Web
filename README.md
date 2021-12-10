@@ -16,3 +16,6 @@ https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsiv
 
 To Do App:
 https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/ToDoAppSiteJS/ToDoAppJS/index.html
+
+Gallery Slider App:
+https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/GallerySlider/index.html
