@@ -70,7 +70,7 @@ function getOne(e){
 }
 
 function getAll(e){
-    var html =`<div class="col-md"></div>`;
+    var html =`<div class="col-md mb-2"></div>`;
     var cityName =document.getElementById('post-id').value;
     
     var url ="https://api.weatherapi.com/v1/forecast.json?key=64f6a8a7706149a0860232953211812&q="+cityName+"&days=7&aqi=no&alerts=no";
@@ -96,7 +96,7 @@ function getAll(e){
                     var i = d.getDay();
                     html+=`
                     
-                    <div class="col-md-2 mb-2" id="fore-card">
+                    <div class="col-sm-2 mb-2" id="fore-card">
                     <div class="card bg-dark">
                         <div class="card-body text-white">
                             <div class="wheater-ico-fore">
@@ -109,7 +109,7 @@ function getAll(e){
                 </div>
                     `;
                 });
-                html+=`<div class="col-md"></div>`;
+                html+=`<div class="col-md mb-2"></div>`;
                 document.querySelector('#fore-row').innerHTML=html;
             }
         xhr.send();
