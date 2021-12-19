@@ -42,10 +42,10 @@ function getOne(e){
                         <div class="col-md-6">
                             <p id="city-clock">${beauty.current.last_updated}</p>
                             <p id="wheater-condition">${beauty.current.condition.text}</p>
-                            <p id="wheater-max">Temp_c : ${beauty.current.temp_c}°C </p>
-                            <p id="wheater-min">Temp_f : ${beauty.current.temp_f}°C </p>
-                            <p id="wheater-humidity">Temp_f : ${beauty.current.humidity}% </p>
-                            <p id="wheater-min">Temp_f : ${beauty.current.gust_kph} km/h </p>
+                            <p id="wheater-max">Temp C : ${beauty.current.temp_c}°C </p>
+                            <p id="wheater-min">Temp F : ${beauty.current.temp_f}°C </p>
+                            <p id="wheater-humidity">Humidity : ${beauty.current.humidity}% </p>
+                            <p id="wheater-min">Gust : ${beauty.current.gust_kph} km/h </p>
                         </div>
                         <div class="col-md-6">
                             <div class="wheater-ico">
