@@ -19,3 +19,6 @@ https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsiv
 
 Gallery Slider App:
 https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/GallerySlider/index.html
+
+Wheater App With JS;
+https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/WheaterAppJS/WheaterApp/index.html
