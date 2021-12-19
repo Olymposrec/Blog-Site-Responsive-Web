@@ -31,6 +31,7 @@ function getOne(e){
                 var html ="";
                 console.log(beauty);
                 html+=`
+                <div class="col-md-2"></div>
                 <div class="card">
                 <div class="card-header bg-dark text-white">
                    ${beauty.location.name} - ${beauty.location.country}
