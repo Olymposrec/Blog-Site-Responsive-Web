@@ -1,0 +1,25 @@
+html{
+    font-size: 20px;
+}
+body{
+    color: white;
+    background-image: url('designTest.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+    font-family: 'Didact Gothic', sans-serif;
+    word-spacing: 0.1rem;
+    letter-spacing: .08rem;
+    font-size: 0.8rem;
+}
+#search-div{
+    background-color: transparent;
+}
+#search-result{
+    background-color: transparent;
+}
+
+#contact-list{
+    background-color: transparent;
+}

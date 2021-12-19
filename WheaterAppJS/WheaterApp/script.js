@@ -43,15 +43,9 @@ function getOne(e){
                             <p id="city-clock">${beauty.current.last_updated}</p>
                             <p id="wheater-condition">${beauty.current.condition.text}</p>
                             <p id="wheater-max">Temp C : ${beauty.current.temp_c}°C </p>
-<<<<<<< HEAD
                             <p id="wheater-min">Temp F : ${beauty.current.temp_f}°C </p>
                             <p id="wheater-humidity">Humidity : ${beauty.current.humidity}% </p>
                             <p id="wheater-min">Gust : ${beauty.current.gust_kph} km/h </p>
-=======
-                            <p id="wheater-min">Temp F : ${beauty.current.temp_f}°F </p>
-                            <p id="wheater-humidity"> Humidity : ${beauty.current.humidity}% </p>
-                            <p id="wheater-min"> Wind : ${beauty.current.gust_kph} km/h </p>
->>>>>>> 178d534f4586b239acc2d8e8731a2138a1049d2c
                         </div>
                         <div class="col-md-6">
                             <div class="wheater-ico">
