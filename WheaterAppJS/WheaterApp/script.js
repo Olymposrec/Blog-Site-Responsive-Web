@@ -73,7 +73,7 @@ function getAll(e){
     var html =`<div class="col-md"></div>`;
     var cityName =document.getElementById('post-id').value;
     
-    var url ="https://api.weatherapi.com/v1/forecast.json?key=64f6a8a7706149a0860232953211812&q="+cityName+"&days=7&aqi=no&alerts=no";
+    var url =https://api.weatherapi.com/v1/forecast.json?key=64f6a8a7706149a0860232953211812&q="+cityName+"&days=1&aqi=no&alerts=no;
 
     var xhr = new XMLHttpRequest();
 
