@@ -1,6 +1,9 @@
 html{
     font-size: 20px;
 }
+* {
+    box-sizing: border-box;
+  }
 body{
     
     font-family: 'Didact Gothic', sans-serif;
@@ -46,6 +49,10 @@ body{
     #wheater-icon{
         width: 6.4rem;
         height: 6.4rem;
-        float:left;
+        float:inherit;
+        align-content: center;
+    }
+    #Wheater-info{
+        text-align: center;
     }
   }
