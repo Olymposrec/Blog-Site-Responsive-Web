@@ -96,7 +96,7 @@ function getAll(e){
                     var i = d.getDay();
                     html+=`
                     
-                    <div class="col-md-2" id="fore-card">
+                    <div class="col-md-2 mb-2" id="fore-card">
                     <div class="card bg-dark">
                         <div class="card-body text-white">
                             <div class="wheater-ico-fore">
