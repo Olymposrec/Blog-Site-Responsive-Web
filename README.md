@@ -25,3 +25,6 @@ https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsiv
 
 Profile Search App With JS (API);
 https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/ProfileFinder/SearchProfile/index.html
+
+Shop List App With JS:
+https://htmlpreview.github.io/?https://github.com/Olymposrec/Blog-Site-Responsive-Web/blob/main/ShopList/index.html
